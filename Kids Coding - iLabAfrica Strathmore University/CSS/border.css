@@ -1,5 +1,5 @@
-#borderimg { 
+#bordering { 
     border: 10px solid transparent;
     padding: 15px;
-    border-image: url(border.wepp) 30 round;
+    border-image: url(HTML/border.wepp) 30 round;
   }
