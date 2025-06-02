@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Schedule</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .highlight {
+            background-color: #ffeb3b;
+        }
+
+        caption {
+            caption-side: top;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Weekly Course Schedule</caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>9:00 AM - 12:00 PM</th>
+                <td>Mathematics</td>
+                <td class="highlight">Physics</td>
+                <td>Computer Science</td>
+                <td class="highlight">Physics</td>
+                <td>History</td>
+            </tr>
+            <tr>
+                <th>1:00 PM - 4:00 PM</th>
+                <td class="highlight" colspan="2">Biology Lab</td>
+                <td>Literature</td>
+                <td colspan="2">Art Workshop</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">Schedule is subject to change</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
